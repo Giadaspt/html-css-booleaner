@@ -1,6 +1,5 @@
-
-body  {
- 
+body{
+  margin: 0;
 }
 
 .nav div { 
@@ -8,10 +7,10 @@ body  {
   background-color: rgb(78,160,255);
   background-attachment: scroll;
   height: 170px;
-  margin: 0%;
+
 }
 
-.nav div img{
+#logo {
   width: 300px;
   padding-top: 80px;
 }
@@ -48,6 +47,26 @@ h1{
   background-color: rgb(255,255,0);
 }
 
-th {
+table{
+  border-spacing: 0;
   text-align: left;
+}
+
+.firsttitle {
+  width: 1000px;
+  background-color: rgb(32,169,229);
+  
+}
+
+.lastcell {
+  width: 50%;
+}
+
+.cell {
+  background-color: rgba(78,160,255,.5);
+}
+
+.endtext {
+  color: rgb(100, 100, 100);
+  font-size: 20px;
 }
