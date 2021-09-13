@@ -1,0 +1,85 @@
+body {
+box-sizing: border-box;
+}
+
+main, footer {
+  width: 80%;
+  margin: auto;
+}
+
+/* first section */
+.nav { 
+  background-image: url('../img/pattern.png');
+  background-color: rgb(78,160,255);
+  background-attachment: scroll;
+  height: 170px;
+  box-sizing: border-box;
+}
+
+#logo {
+  width: 300px;
+  padding-top: 80px;
+}
+
+/* second section  with subtitles*/
+h1{
+  font-size: 50px;
+  margin-bottom: 0;
+}
+ 
+.sub{ 
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.titles p{
+  color: rgb(100, 100, 100);
+  margin: 0;
+} 
+
+.titles span{
+  color: rgb(78,160,255);
+}
+
+/* pics with titles under */
+.pictures div{
+  padding-top: 50px;
+  
+}
+
+.pictures div p{
+  font-size: 12px;
+  margin: 0;
+}
+
+/* big text section */
+.alltext p span{
+  background-color: rgb(255,255,0);
+}
+
+/* table (which is inside big text section) */
+table{
+  border-spacing: 0;
+  text-align: left;
+}
+
+.titleone {
+  width: 1000px;
+  background-color: rgb(32,169,229);
+  
+}
+
+.lastcell {
+  width: 50%;
+}
+
+.cell {
+  background-color: rgba(78,160,255,.5);
+}
+
+/* footer */
+.endtext {
+  text-align: left;
+  color: rgb(100, 100, 100);
+  font-size: 20px;
+}
